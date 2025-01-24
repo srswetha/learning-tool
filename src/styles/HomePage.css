@@ -1,0 +1,111 @@
+/* General container styles */
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(135deg, #eef3f8, #d4e6f1);
+    text-align: center;
+    position: relative;
+}
+
+/* Header Section */
+.header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.welcome-text {
+    font-size: 4rem;
+    color: #444;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+/* Buttons Section */
+.buttons-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.button {
+    padding: 15px 30px;
+    width: 180px; /* Ensures consistent button size */
+    height: 60px; /* Ensures consistent button size */
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Specific button styles */
+.learn-button {
+    background-color: #4caf50; /* Green */
+}
+
+.learn-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Slight enlargement on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.schedule-button {
+    background-color: #2196f3; /* Blue */
+}
+
+.schedule-button:hover {
+    background-color: #1e88e5;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.add-content-button {
+    background-color: #f44336; /* Red */
+}
+
+.add-content-button:hover {
+    background-color: #e53935;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Section */
+.footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.footer a {
+    color: #2196f3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

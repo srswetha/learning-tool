@@ -1,0 +1,120 @@
+/* General container styles */
+.learn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+  text-align: center;
+}
+
+/* Title styles */
+.learn-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Buttons section */
+.learn-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Fixed size for buttons */
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Button styles */
+.learn-button {
+  padding: 15px;
+  width: 100%; /* Ensures uniform width */
+  height: 60px; /* Sets uniform height */
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Specific button colors */
+.frontend-button {
+  background-color: #4caf50;
+}
+
+.frontend-button:hover {
+  background-color: #45a049;
+}
+
+.backend-button {
+  background-color: #2196f3;
+}
+
+.backend-button:hover {
+  background-color: #1e88e5;
+}
+
+.fullstack-button {
+  background-color: #f44336;
+}
+
+.fullstack-button:hover {
+  background-color: #e53935;
+}
+
+.data-engineering-button {
+  background-color: #ff9800;
+}
+
+.data-engineering-button:hover {
+  background-color: #fb8c00;
+}
+
+.data-analytics-button {
+  background-color: #9c27b0;
+}
+
+.data-analytics-button:hover {
+  background-color: #8e24aa;
+}
+
+.software-engineering-button {
+  background-color: #00bcd4;
+}
+
+.software-engineering-button:hover {
+  background-color: #00acc1;
+}
+
+.machine-learning-button {
+  background-color: #3f51b5;
+}
+
+.machine-learning-button:hover {
+  background-color: #3949ab;
+}
+
+.cybersecurity-button {
+  background-color: #795548;
+}
+
+.cybersecurity-button:hover {
+  background-color: #6d4c41;
+}
+.devops-button {
+  background-color: #047935;
+}
+
+.devops-button:hover {
+  background-color: #045d29;
+}
