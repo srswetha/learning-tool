@@ -1,4 +1,4 @@
-# 🛠 LDSE Tool - Learning Driven Software Engineering
+# 🛠 Learning Tool - Learning Driven Software Engineering
 
 The **LDSE Tool** is designed to help software engineers enhance their learning experience through a structured, research-backed approach. It provides curated learning resources, interactive mini-projects, and progress tracking to **streamline the learning process** based on real-world challenges faced by developers.
 
