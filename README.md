@@ -11,3 +11,17 @@ The **LDSE Tool** is designed to help software engineers enhance their learning 
 - 📊 **Progress Tracking & Analytics** – Visual progress insights to measure improvement.
 - 🎯 **Resource Aggregation** – Combines research papers, tutorials, and best coding practices.
 
+---
+## 🏗️ Tech Stack Used
+
+The LDSE Tool is built using the following technologies:
+
+### **Frontend**
+- **React.js** – For building the interactive user interface.
+- **Tailwind CSS** – For a modern and responsive design.
+- **Recharts.js** – For data visualization (progress tracking).
+
+### **Backend**
+- **Node.js & Express.js** – Handles API requests and user authentication.
+- **Python (Flask/FastAPI)** – Used for machine learning-based recommendations (if applicable).
+- **PostgreSQL / MongoDB** – Database for storing user progress and learning data.
