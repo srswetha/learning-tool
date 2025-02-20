@@ -23,5 +23,5 @@ The LDSE Tool is built using the following technologies:
 
 ### **Backend**
 - **Node.js & Express.js** – Handles API requests and user authentication.
-- **Python (Flask/FastAPI)** – Used for machine learning-based recommendations (if applicable).
-- **PostgreSQL / MongoDB** – Database for storing user progress and learning data.
+- **Python (Flask/FastAPI)** – Used for machine learning-based recommendations (in progress).
+- **MongoDB** – Database for storing user progress and learning data.
