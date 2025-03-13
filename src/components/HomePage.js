@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/HomePage.css';
+// import { FaRobot } from 'react-icons/fa'; 
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -8,11 +9,14 @@ const HomePage = () => {
   return (
     <div className="homepage-container">
       <header className="header">
-        <h1 className="welcome-text">Welcome!</h1>
-        <p className="tagline">Embark on your learning journey with us.</p>
+      <h1 className="app-name">LearnMate</h1>
+      <p className="tagline">Empowering Your Learning Journey.</p>
       </header>
 
-      
+        <div className="content-container">
+        <h2 className="welcome-text">Welcome!</h2>
+        <p className="description">Embark on your personalized learning adventure with interactive AI assistance.</p>
+        
 
       <div className="buttons-container">
         <button
@@ -34,6 +38,11 @@ const HomePage = () => {
           Add Content
         </button>
       </div>
+      </div>
+      <div className="ai-chat-label">Ask LearnMate AI</div>
+      <button className="ai-chat-button" onClick={() => navigate('/ai-assistant')}>
+      </button>
+
 
       <footer className="footer">
         <p>

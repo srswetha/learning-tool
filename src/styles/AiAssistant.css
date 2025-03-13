@@ -1,0 +1,128 @@
+/* Full Page Background */
+body {
+  background: url('https://source.unsplash.com/1600x900/?technology,abstract') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* AI Assistant Main Container */
+.ai-container {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 30px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9); /* Slight transparency */
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+/* Header Styling */
+.ai-header {
+  margin-bottom: 20px;
+}
+
+.ai-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ai-header h1 span {
+  color: #007bff;
+}
+
+/* Add a glowing effect to the header */
+.ai-header h1 span {
+  text-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+}
+
+.ai-header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Chat Input Box */
+.chat-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input Field */
+.chat-input {
+  width: 70%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+}
+
+.chat-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+}
+
+/* Ask Button */
+.chat-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+.chat-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* AI Response Box */
+.ai-response {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #007bff;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  color: #333;
+  backdrop-filter: blur(5px);
+}
+/* Continue Button */
+.continue-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+}
+
+.continue-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.continue-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
